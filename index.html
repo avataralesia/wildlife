@@ -10,59 +10,87 @@
 </head>
 
 <body>
-    <div class="wrapper-top">
-        <header>
+    <div class="wrapper__background">
+        <div class="wrapper__top">
+            <header>
+                <nav class="nav center pd-top">
+                    <div class="logo">
+                        <img src="images/svgg.svg" alt="logo">
+                        <div class="logo__wild">wildlife</div>
+                    </div>
+                    <ul class="nav__left">
+                        <li class="nav__left__item"><a href="#">Blog</a></li>
+                        <li class="nav__left__item"><a href="#">Contacts</a></li>
+                        <li><a href="#"><img class="nav__left__item" src="images/Vector.svg" alt="search"></a></li>
+                        <button class="nav__left__item button__nav">Sign in</button>
+                    </ul>
+                </nav>
+            </header>
+            <section class="survival center">
+                <h1>Survival</h1>
+                <p class="section-content">What this means is that we exist to help protect our environment and do in
+                    numbers of ways. You can save
+                    the planet by donation.</p>
+                <button class="button__section">Donate</button>
+            </section>
+        </div>
+    </div>
+    <article class="latest center">
+        <h2>Latest articles</h2>
+        <p>Breaking news from the wild</p>
+        <div class="slider center">
+            <img class="arrow" src="images/arrowR.svg" alt="arrow">
+            <div class="card">
+                <img class="slider__photo" src="images/Rectangle1.jpg" alt="photo">
+                <div class="slider__text">
+                    <h4>Deer</h4>
+                    <small>Naturalist investigation</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="slider__photo" src="images/Rectangle2.jpg" alt="photo">
+                <div class="slider__text">
+                    <h4>Squirrel</h4>
+                    <small>Kamikaze squirrels</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="slider__photo" src="images/Rectangle3.jpg" alt="photo">
+                <div class="slider__text">
+                    <h4>Bird</h4>
+                    <small>Birds Fight club</small>
+                </div>
+            </div>
+            <img class="arrow" src="images/arrowL.svg" alt="arrow">
+        </div>
+        <div class="get-notified  center">
+            <h3>Get notified about new amazing articles</h3>
+            <form action="#" class="enter">
+                <input class="enter__text" type="email" placeholder="Email">
+                <input class="button__section send" type="submit" value="Send">
+            </form>
+        </div>
+    </article>
+    <footer>
+        <div class="wrapper__footer">
             <nav class="nav center">
                 <div class="logo">
                     <img src="images/svgg.svg" alt="logo">
                     <div class="logo__wild">wildlife</div>
                 </div>
                 <ul class="nav__left">
-                    <li class="nav__left__item">Blog</li>
-                    <li class="nav__left__item">Contacts</li>
-                    <li><img class="nav__left__item" src="images/Vector.svg" alt="search"></li>
-                    <button class="nav__left__item button__nav">Sign in</button>
+                    <li class="nav__left__item"><a href="#">Articles</a></li>
+                    <li class="nav__left__item"><a href="#">About us</a></li>
+                    <li class="nav__left__item"><a href="#">Learn more</a></li>
+                </ul>
+                <ul class="nav__left">
+                    <li class="nav__left__footer"><a href="#"><img src="images/F1.svg" alt="facebook"></a></li>
+                    <li class="nav__left__footer"><a href="#"><img src="images/inst.svg" alt="instagram"></a></li>
+                    <li class="nav__left__footer"><a href="#"><img src="images/pinter.svg" alt="pinterest"></a></li>
+                    <li class="nav__left__footer"><a href="#"><img src="images/teleg.svg" alt="telegram"></a></li>
                 </ul>
             </nav>
-        </header>
-        <section class="survival center">
-            <h1>Survival</h1>
-            <p class="section-content">What this means is that we exist to help protect our environment and do in
-                numbers of ways. You can save
-                the planet by donation.</p>
-            <button class="button__section">Donate</button>
-        </section>
-    </div>
-    <article class="latest  center">
-        <h2>Latest articles</h2>
-        <p>Breaking news from the wild</p>
-        <div class="slider center">
-            <img src="images/arrowR.svg" alt="arrow">
-            <img src="images/Rectangle1.jpg" alt="photo">
-            <img src="images/Rectangle2.jpg" alt="photo">
-            <img src="images/Rectangle3.jpg" alt="photo">
-            <img src="images/arrowL.svg" alt="arrow">
         </div>
-        <div class="get-notified  center">
-            <h3>Get notified about new amazing articles</h3>
-            <form action="#" class="enter">
-                <input class="enter__text" type="email" placeholder="Email">
-                <button class="send" type="submit">Send</button>
-            </form>
-        </div>
-    </article>
-    <footer>
-        <nav class="nav center">
-            <div class="logo">
-                <img src="images/svgg.svg" alt="logo">
-                <div class="logo__wild">wildlife</div>
-            </div>
-            <ul class="nav__left">
-                <li class="nav__left__item">Articles</li>
-                <li class="nav__left__item">About us</li>
-                <li class="nav__left__item">Learn more</li>
-            </ul>
-        </nav>
     </footer>
 </body>
 
