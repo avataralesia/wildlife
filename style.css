@@ -100,7 +100,10 @@ h1 {
   color: #CD6326;
   font-style: normal;
   font-weight: normal;
-  margin-top: 243px;
+}
+
+.survival {
+  padding-top: 120px;
 }
 
 .section-content {
@@ -245,19 +248,22 @@ color: #333333;
 }
 
 .wrapper__footer {
-  background-image: url(images/footer.jpg);
+  background-image: url(images/footer1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  padding-top: 150px;
-  padding-bottom: 150px;
   max-width: 1440px;
   margin: 0 auto;
+  height: 100%;
 }
 
 footer {
   background-color: #181617;
   height: 360px;
+}
+
+.footer-pd {
+  padding-top: 150px;
 }
 .nav__left__footer {
   padding-left: 25px;
